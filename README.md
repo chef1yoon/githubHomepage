@@ -5,11 +5,11 @@ github 웹사이트 렌딩 페이지 만들기.
 여기서는 반응형, 동영상 삽입, 수평예제, 지도 api를 써서 실질적으로 지도를 넣는 방법들을 해보았다.
 
 
-Github main page
+## Github main page
 사이트의 메인 페이지를 반응형으로 작업한다.
 
 
-
+## General text
 Personal
 Open source
 Business
@@ -60,20 +60,17 @@ Blog
 About
 
 
-
-
-Video link
+## Video link
 https://www.youtube.com/watch?v=afvT1c1ii0c
 
 
 
-
-'Google Map API' 를 호출해봐라.
+## 'Google Map API' 를 호출해봐라.
 AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg
 
 
 
-Media(Grid) options
+## Media(Grid) options
 디바이스 종류에 따른 단위는 '기획 / 디자인' 단계에서 결정하는 것이 효과적이다.
 
 종류	          디바이스	           단위(px)
