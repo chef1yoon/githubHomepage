@@ -109,6 +109,19 @@ a{
 }
 
 
+/* SUMMARY */
+.summary{
+
+}
+
+.summary__title{
+
+}
+
+.summary__description{
+    
+}
+
 /* HEADER */
 header{
     border-bottom: 1px solid rgba(0,0,0,.75);
@@ -205,4 +218,14 @@ header .sub-menu li a{
 
 header .sub-menu li a:hover{
     color: #4078c0;
+}
+
+
+/* VISUAL */
+.section--visual{
+
+}
+
+.section--visual .summary{
+
 }
