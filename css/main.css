@@ -87,3 +87,28 @@
 .input--text::-moz-input-placeholder {
     color: #cacaca;
 }
+
+/* HEADER */
+header{
+    border-bottom: 1px solid rgba(0,0,0,.75);
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    background: #fff;
+}
+
+header .inner{
+    max-width: 980px;
+    height: 78px;
+    margin: 0 auto;
+}
+
+header .menu-group{
+    display: flex;
+}
+
+header .logo{
+
+}
+
+header .main-menu{
+    display: flex;
+}
