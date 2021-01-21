@@ -164,5 +164,45 @@ header .main-menu li a:hover{
 
 header .sign-group{
     display: flex;
+    align-items: center;
+    height: 100%;
+}
 
+header .btn-group{
+    order:2;
+    display: flex;
+}
+
+header .btn-group .sign-in{
+    margin-right: 4px;
+}
+
+header #search-form{
+    order:1;
+    margin-right: 12px;
+}
+
+#search{
+    width: 160px;
+    font-size: 14px;
+}
+
+#search + [type="submit"]{
+    display: none;
+}
+
+header .sub-menu{
+    display: flex;
+    margin-right: 10px;
+}
+
+header .sub-menu li a{
+    padding: 8px;
+    display: block;
+    font-size: 13px;
+    color: #3c4146;
+}
+
+header .sub-menu li a:hover{
+    color: #4078c0;
 }
