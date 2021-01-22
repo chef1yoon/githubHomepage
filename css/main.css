@@ -473,3 +473,18 @@ footer .site-links li a{
 footer .site-links li a:hover{
     text-decoration: underline;
 }
+
+footer .logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:24px;
+    height: 24px;
+}
+
+footer .logo:hover svg{
+    fill: #4078c0;
+}
