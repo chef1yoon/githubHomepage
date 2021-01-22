@@ -358,8 +358,6 @@ header .sub-menu li a:hover {
 }
 
 .section--feature .tiles ul{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
 }
 
 .section--feature .tiles li{
@@ -368,6 +366,8 @@ header .sub-menu li a:hover {
     line-height: 1.5;
     border-right: 1px solid #e5e5e5;
     box-sizing: border-box;
+    float: left;
+    width: 25%;
 }
 
 .section--feature .tiles li:last-child{
