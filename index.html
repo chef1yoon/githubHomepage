@@ -163,18 +163,32 @@
                 <div id="map"></div>
             </div>
         </section>
+
+
+        <!-- Pricing card -->
+        <section class="section section--pricing">
+            <div class="inner">
+                <div class="card">
+                    <div class="cell cell1">
+                        <a href="#" class="btn btn--primary">Sing up for Github</a>
+                    </div>
+                    <div class="cell cell2">Public projects are always free. Work together across unlimited private
+                        repositories for $7 / month.
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script>
-        function initMap(){
+        function initMap() {
             const myLatLng = {
                 lat: 37.782293,
                 lng: -122.391240
             }
 
             const map = new google.maps.Map(
-                document.getElementById('map'),
-                {
+                document.getElementById('map'), {
                     center: myLatLng,
                     scrollwheel: false,
                     zoom: 18
@@ -188,7 +202,8 @@
         }
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg&callback=initMap"
+        async defer></script>
 </body>
 
 </html>
