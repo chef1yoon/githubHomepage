@@ -444,3 +444,32 @@ header .sub-menu li a:hover {
     flex: 1;
     border-left: 1px solid #e5e5e5;
 }
+
+/* FOOTER */
+footer{
+
+}
+
+footer .inner{
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+}
+
+footer .site-links{
+    display: flex;
+}
+
+footer .site-links li{
+    font-size: 12px;
+    margin-right: 10px;
+    color: #767676;
+}
+
+footer .site-links li a{
+    color: #4078c0;
+
+}
+
+footer .site-links li a:hover{
+    text-decoration: underline;
+}
