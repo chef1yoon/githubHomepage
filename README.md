@@ -65,11 +65,6 @@ https://www.youtube.com/watch?v=afvT1c1ii0c
 
 
 
-## 'Google Map API' 를 호출
-AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg
-
-
-
 ## Media(Grid) options
 디바이스 종류에 따른 단위는 '기획 / 디자인' 단계에서 결정하는 것이 효과적입니다.
 

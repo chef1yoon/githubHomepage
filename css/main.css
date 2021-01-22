@@ -388,3 +388,24 @@ header .sub-menu li a:hover {
     font-size: 14px;
     color: #767676;
 }
+
+
+/* WHERE IS*/
+.section--where-is {
+
+}
+
+.section--where-is .inner{
+    padding-top: 80px;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-bottom: none;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    background: red;
+}
