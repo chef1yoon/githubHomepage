@@ -1,0 +1,25 @@
+/* COMMON */
+.summary__title{
+    font-size: 34px !important;
+}
+
+.summary__description{
+    font-size: 22px;
+}
+
+
+/* FEATURE */
+.section--feature .tiles li{
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* WHRE IS */
+#map{
+    width: auto;
+    margin: 40px -20px 0 -20px;
+    border-left: none;
+    border-right: none;
+}
