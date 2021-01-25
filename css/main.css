@@ -16,7 +16,7 @@ a {
     background: #eee linear-gradient(to bottom, #fcfcfc, #eee);
     border: 1px solid #d5d5d5;
     border-radius: 4px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     padding: 0 12px;
     font-size: 14px;
@@ -498,17 +498,71 @@ footer .logo svg:hover {
     }
 
     header .menu-group, 
-    header .sign-up{
+    header .sign-group{
         float: none;
+    }
+
+    header .menu-group{
+        display: block;
+    }
+
+    header .logo{
+        padding: 12px 0;
+    }
+
+    header .main-menu{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    header .main-menu li{
+        border-top: 1px solid #e5e5e5;
+    }
+
+    header .main-menu li a{
+        padding: 16px 0;
+    }
+
+    header .sign-group{
+        display: block;
+        padding: 10px 0 20px;
+    }
+
+    header .btn-group{
+        display: block;
+    }
+
+    header .btn-group .btn{
+        justify-content: center;
+    }
+
+    header .btn-group .sign-in{
+        margin-right: 0;
+        margin-bottom: 12px;
+
+    }
+
+    #search-form{
+        margin-top: 12px;
+        margin-right: 0;
+    }
+
+    #search{
+        width: 100%;
+        height: 42px;
+        text-align: center;
+    }
+
+    header .sub-menu{
+        margin-top: 12px;
+        margin-right: 0;
+        justify-content: center;
     }
 
     header .toggle{
         display: none;
     }
 
-    header .logo{
-        padding: 12px 0;
-    }
 
     #toggle-btn{
         background: url("../img/toggle-btn.svg");
