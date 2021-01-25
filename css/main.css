@@ -457,6 +457,7 @@ header .sub-menu li a:hover {
     border-left: 1px solid #e5e5e5;
 }
 
+
 /* FOOTER */
 footer {}
 
@@ -498,6 +499,7 @@ footer .logo {
 footer .logo svg:hover {
     fill: #4078c0;
 }
+
 
 /* MEDIA */
 @media (max-width: 1024px) {
@@ -605,5 +607,53 @@ footer .logo svg:hover {
         width: auto;
         max-width: 500px;
         margin: 0 auto;
+    }
+
+
+    /* FEATURE */
+    .section--featuer .summary{
+        padding: 66px 20px 0 20px;
+    }
+
+    .section--feature .tiles li{
+        width: 50%;
+    }
+
+    .section--featuer .tiles li:nth-child(2){
+        border-right: none;
+    }
+
+    .section--featuer .tiles li img{
+        padding: 14px 30% 24px;
+    }
+
+
+    /* WHRE IS */
+    .section--where-is .inner{
+        max-width: none;
+        padding: 80px 20px 0 20px;
+    }
+
+
+
+    /* PRICING CARD */
+    .section--pricing .inner{
+        max-width: none;
+        padding: 80px 20px;
+    }
+
+    .section--pricing .card .cell2{
+        font-size: 20px;
+    }
+
+
+    
+    /* FOOTER */
+    footer .inner{
+        padding: 50px 20px;
+    }
+
+    footer .logo{
+        display: none;
     }
 }
