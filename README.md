@@ -1,4 +1,4 @@
-# git-hub 구버전 홈페이지를 제작해 볼겁니다.
+# git-hub 구버전 홈페이지를 제작했습니다.
 
 
 # GitHub main page
