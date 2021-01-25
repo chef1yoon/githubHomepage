@@ -1,7 +1,9 @@
+# git-hub 구버전 홈페이지를 제작해 볼겁니다.
+
+
 # GitHub main page
-
-GitHub 사이트의 메인 페이지를 반응형으로 작업합니다.
-
+github 웹사이트 렌딩 페이지 만들었습니다.	GitHub 사이트의 메인 페이지를 반응형으로 작업합니다.
+여기서는 반응형, 동영상 삽입, 수평예제, 지도 api를 써서 지도를 넣는 방법들을 해보았습니다.
 
 ## Text
 
@@ -153,6 +155,7 @@ function initMap() {
   }
 })(window, document);
 ```
+
 
 ## Media(Grid) options
 
