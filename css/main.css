@@ -236,6 +236,18 @@ header .sub-menu li a:hover {
     color: #4078c0;
 }
 
+#toggle-btn {
+    display: none;
+    background: url("../img/toggle-btn.svg");
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
 
 /* VISUAL */
 .section--visual {
@@ -446,42 +458,40 @@ header .sub-menu li a:hover {
 }
 
 /* FOOTER */
-footer{
+footer {}
 
-}
-
-footer .inner{
+footer .inner {
     padding: 50px 0;
     border-top: 1px solid #eee;
 }
 
-footer .site-links{
+footer .site-links {
     display: flex;
 }
 
-footer .site-links li{
+footer .site-links li {
     font-size: 12px;
     margin-right: 10px;
     color: #767676;
 }
 
-footer .site-links li a{
+footer .site-links li a {
     color: #4078c0;
 
 }
 
-footer .site-links li a:hover{
+footer .site-links li a:hover {
     text-decoration: underline;
 }
 
-footer .logo{
+footer .logo {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    width:24px;
+    width: 24px;
     height: 24px;
 }
 
@@ -490,92 +500,85 @@ footer .logo svg:hover {
 }
 
 /* MEDIA */
-@media (max-width: 1024px){
-    header.section .inner{
+@media (max-width: 1024px) {
+    header.section .inner {
         max-width: none;
         height: auto;
-        padding: 0 20px; 
+        padding: 0 20px;
     }
 
-    header .menu-group, 
-    header .sign-group{
+    header .menu-group,
+    header .sign-group {
         float: none;
     }
 
-    header .menu-group{
+    header .menu-group {
         display: block;
     }
 
-    header .logo{
+    header .logo {
         padding: 12px 0;
     }
 
-    header .main-menu{
+    header .main-menu {
         display: block;
         margin-bottom: 10px;
     }
 
-    header .main-menu li{
+    header .main-menu li {
         border-top: 1px solid #e5e5e5;
     }
 
-    header .main-menu li a{
+    header .main-menu li a {
         padding: 16px 0;
     }
 
-    header .sign-group{
+    header .sign-group {
         display: block;
         padding: 10px 0 20px;
     }
 
-    header .btn-group{
+    header .btn-group {
         display: block;
     }
 
-    header .btn-group .btn{
+    header .btn-group .btn {
         justify-content: center;
     }
 
-    header .btn-group .sign-in{
+    header .btn-group .sign-in {
         margin-right: 0;
         margin-bottom: 12px;
 
     }
 
-    #search-form{
+    #search-form {
         margin-top: 12px;
         margin-right: 0;
     }
 
-    #search{
+    #search {
         width: 100%;
         height: 42px;
         text-align: center;
     }
 
-    header .sub-menu{
+    header .sub-menu {
         margin-top: 12px;
         margin-right: 0;
         justify-content: center;
     }
 
-    header .toggle{
+    header .toggle {
         display: none;
     }
 
-    header .toggle.on{
+    header .toggle.on {
         display: block;
     }
 
 
-    #toggle-btn{
-        background: url("../img/toggle-btn.svg");
-        width: 18px;
-        height: 24px;
-        position: absolute;
-        top: 16px;
-        right: 20px;
-        cursor: pointer;
-        text-indent: -9999px;
+    #toggle-btn {
+        display: block;
     }
 }
