@@ -485,6 +485,20 @@ footer .logo{
     height: 24px;
 }
 
-footer .logo:hover svg{
+footer .logo svg:hover {
     fill: #4078c0;
+}
+
+/* MEDIA */
+@media (max-width: 1024px){
+    header.section .inner{
+        max-width: none;
+        height: auto;
+        padding: 0 20px; 
+    }
+
+    header .menu-group, 
+    header .sign-up{
+        float: none;
+    }
 }
